@@ -7,8 +7,8 @@ Dotfile for setting up git environment: aliases and git flow on the Hack Reactor
 
 1. Download the file
 2. Navigate to file in Terminal
-3. Change permissions on it: `chmod 700 git-env-setup.sh`
-4. Run the script: `./git-env-setup.sh`
+3. Change permissions on it: `chmod 700 setup.sh`
+4. Run the script: `./setup.sh`
 
 # What gets installed
 
