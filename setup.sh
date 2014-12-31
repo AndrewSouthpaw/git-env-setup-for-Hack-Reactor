@@ -1,19 +1,4 @@
 #!/bin/zsh
-# This script performs two tasks:
-# 1. Add standard git aliases
-# 2. Install git flow and git flow completion helpers.
-
-###########################################################
-# How to use
-###########################################################
-# 1. Download the file
-# 2. Navigate to file
-# 3. Change permissions on it:
-#     chmod 700 git-env-setup.sh
-# 4. Run the script:
-#     ./git-env-setup.sh
-
-
 # 1. Add standard git aliases
 # ---------------------------
 # We all love them. For some bizarre reason, they're not included in the dev

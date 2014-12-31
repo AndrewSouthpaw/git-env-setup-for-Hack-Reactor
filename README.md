@@ -14,16 +14,15 @@ Dotfile for setting up git environment: aliases and git flow on the Hack Reactor
 
 ### Aliases
     
-co = checkout
-ci = commit
-st = status
-br = branch
-mr = merge
-hist = log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate
-type = cat-file -t
-dump = cat-file -p
-lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
-pushall = push --recurse-submodules=on-demand
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    mr = merge
+    hist = log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate
+    type = cat-file -t
+    dump = cat-file -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
 
 ### Git Flow
 
