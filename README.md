@@ -1,14 +1,15 @@
 git-env-setup-for-Hack-Reactor
 ==============================
 
-Dotfile for setting up git environment: aliases and git flow on the Hack Reactor computers. (That means using `zsh`.)
+Dotfile for setting up git environment: aliases and git flow on the Hack Reactor computers (or your personal use, really...).
 
 # How to Use
 
 1. Download the file
 2. Navigate to file in Terminal
-3. Change permissions on it: `chmod 700 setup.sh`
-4. Run the script: `./setup.sh`
+3. (For the next two steps: Replace `<bash/zsh>` with the appropriate filename, depending on whether you're running `bash` or `zsh`.)
+4. Change permissions on it: `chmod 700 setup-<bash/zsh>.sh`
+5. Run the script: `./setup-<bash/zsh>.sh`. 
 
 # What gets installed
 
