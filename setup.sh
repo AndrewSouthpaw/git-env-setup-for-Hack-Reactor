@@ -1,9 +1,6 @@
 #!/bin/zsh
 # 1. Add standard git aliases
 # ---------------------------
-# We all love them. For some bizarre reason, they're not included in the dev
-# environment at Hack Reactor. Run this script every morning to fix that
-# problem.
 
 git config --global alias.co "checkout"
 git config --global alias.ci "commit"
@@ -23,6 +20,7 @@ git config --global alias.lol "log --graph --decorate --pretty=oneline --abbrev-
 # (http://nvie.com/posts/a-successful-git-branching-model/).
 # This installs that script as well as completion commands for it.
 cd ~/Desktop
+brew install git-flow
 git clone https://github.com/bobthecow/git-flow-completion.git
 cat git-flow-completion/git-flow-completion.zsh >> ~/.zshrc
 rm -rf git-flow-completion

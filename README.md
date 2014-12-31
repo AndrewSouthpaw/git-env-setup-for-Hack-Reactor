@@ -13,6 +13,8 @@ Dotfile for setting up git environment: aliases and git flow on the Hack Reactor
 # What gets installed
 
 ### Aliases
+
+We all love them. For some bizarre reason, they're not included in the dev environment at Hack Reactor. Run this script every morning to fix that problem.
     
     co = checkout
     ci = commit
