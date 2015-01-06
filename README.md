@@ -7,9 +7,7 @@ Dotfile for setting up git environment: aliases and git flow on the Hack Reactor
 
 1. Download the file
 2. Navigate to file in Terminal
-3. (For the next two steps: Replace `<bash/zsh>` with the appropriate filename, depending on whether you're running `bash` or `zsh`.)
-4. Change permissions on it: `chmod 700 setup-<bash/zsh>.sh`
-5. Run the script: `./setup-<bash/zsh>.sh`. 
+3. Run the script: `$ ./setup-bash.sh` or `$ ./setup-zsh.sh`, depending on your shell. 
 
 # What gets installed
 
